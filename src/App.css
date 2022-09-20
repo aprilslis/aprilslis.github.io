@@ -32,7 +32,42 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-font {
+  font-size: 150%;
+  margin-left:4vw;
+  margin-right:4vw;
+}
+
+.nav-font-inner {
+  color: #605448;
+  font-family:"DMSerif";
+  font-weight: 300; 
+  font-size: 120%;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: local("NotoSerif"),
+    url("./resources/NotoSerifDisplay-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "IBMPlexSerif";
+  src: local("IBMPlexSerif"),
+    url("./resources/IBMPlexSerif-Regular.ttf") format("truetype");
+  font-weight: 10;
+}
+
+@font-face {
+  font-family: "DMSerif";
+  src: local("DMSerif"),
+    url("./resources/DMSerifDisplay-Regular.ttf") format("truetype");
+  font-weight: 10;
 }

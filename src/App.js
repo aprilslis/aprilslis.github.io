@@ -15,11 +15,11 @@ function App() {
     <div className="App" style={{backgroundColor:"#a8d1e5"}}>
       <div style={{backgroundColor:"#edb3af", height:"2vh"}}/>
       <Nav
-      activeKey="/home"
+      activeKey="/"
       // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item className="nav-font">
-        <Nav.Link style={{color:"#605448", fontFamily:"DMSerif", fontWeight: "300", fontSize: "120%"}} href="/home">HOME</Nav.Link>
+        <Nav.Link style={{color:"#605448", fontFamily:"DMSerif", fontWeight: "300", fontSize: "120%"}} href="/">HOME</Nav.Link>
       </Nav.Item>
       <Nav.Item className="nav-font">
         <Nav.Link style={{color:"#605448", fontFamily:"DMSerif", fontWeight: "300", fontSize: "120%"}} href="/project">Projects</Nav.Link>
@@ -36,7 +36,7 @@ function App() {
 
       <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
       </Routes>
     </BrowserRouter>

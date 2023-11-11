@@ -1,0 +1,47 @@
+.body {
+    text-align: center;
+    height: 100%;
+}
+.nav-font {
+    font-size: 150%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.nav {
+    padding: 8px;
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-font-inner {
+    color: #605448;
+    font-family: "DMSerif";
+    font-weight: 300;
+    font-size: 120%;
+}
+
+@font-face {
+    font-family: "NotoSerif";
+    src: local("NotoSerif"),
+        url("../../public/NotoSerifDisplay-VariableFont_wdth\,wght.ttf")
+            format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "IBMPlexSerif";
+    src: local("IBMPlexSerif"),
+        url("../../public/IBMPlexSerif-Regular.ttf") format("truetype");
+    font-weight: 10;
+}
+
+@font-face {
+    font-family: "DMSerif";
+    src: local("DMSerif"),
+        url("../../public/DMSerifDisplay-Regular.ttf") format("truetype");
+    font-weight: 10;
+}

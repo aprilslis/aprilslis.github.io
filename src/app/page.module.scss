@@ -1,0 +1,54 @@
+.home {
+    background-image: url("../../public/background.jpg");
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.centerContent {
+    color: #605448;
+    font-family: DMSerif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 96px;
+}
+
+.subtext {
+    font-size: 32px;
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #605448;
+    height: 3px;
+    margin: -20px;
+}
+
+.circle {
+    width: 80%;
+}

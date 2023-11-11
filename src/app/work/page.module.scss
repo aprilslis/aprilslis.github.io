@@ -1,0 +1,62 @@
+.job {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 25%;
+    margin-right: 32px;
+}
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    font-family: IBMPlexSerif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    font-size: 48px;
+    margin: 24px 0;
+    color: #605448;
+}
+
+.description {
+    min-width: 300px;
+    text-align: left;
+    margin-bottom: 8px;
+    max-width: 300px;
+    font-size: 14px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    min-width: 300px;
+    margin: 16px 0;
+}
+
+.line {
+    background-color: #605448;
+    height: 2px;
+    min-width: 350px;
+}
+
+.position {
+    font-size: 14px;
+    color: #4b3636;
+}

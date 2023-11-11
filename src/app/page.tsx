@@ -11,7 +11,7 @@ export default function Home() {
                 <div className={styles.nameContainer}>
                     <img src={circleRim.src} className={styles.circle} />
                     <div className={styles.centerContent}>
-                        <div className="mb-16">
+                        <div className={styles.top}>
                             <label className={styles.name}>APRIL LI</label>
                             <div className={styles.line} />
                         </div>

@@ -42,13 +42,35 @@
 }
 
 .line {
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     background-color: #605448;
     height: 3px;
     margin: -20px;
 }
 
+.top {
+    margin-bottom: 4rem;
+}
+
 .circle {
     width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 48px;
+    }
+
+    .line {
+        margin: 0;
+    }
+
+    .top {
+        margin-bottom: 1rem;
+    }
+
+    .subtext {
+        font-size: 24px;
+    }
 }

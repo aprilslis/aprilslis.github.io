@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <div>"Here are my projects!"</div>
+            <div className="text-center">Still working on them ;-)</div>
         </>
     );
 }

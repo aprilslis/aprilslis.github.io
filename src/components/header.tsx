@@ -15,11 +15,15 @@ export default function Header() {
                         <div className={styles["nav-font-inner"]}>Work</div>
                     </a>
                 </div>
-                <div className={styles["nav-font"]}>
-                    <a className={styles.link} href="/projects">
-                        <div className={styles["nav-font-inner"]}>Projects</div>
-                    </a>
-                </div>
+                {false && (
+                    <div className={styles["nav-font"]}>
+                        <a className={styles.link} href="/projects">
+                            <div className={styles["nav-font-inner"]}>
+                                Projects
+                            </div>
+                        </a>
+                    </div>
+                )}
             </div>
         </div>
     );

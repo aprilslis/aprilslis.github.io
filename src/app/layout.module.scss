@@ -2,3 +2,25 @@
     height: 100%;
     background-color: rgb(251, 250, 228);
 }
+
+@font-face {
+    font-family: "NotoSerif";
+    src: local("NotoSerif"),
+        url("../../public/NotoSerifDisplay-VariableFont_wdth\,wght.ttf")
+            format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "IBMPlexSerif";
+    src: local("IBMPlexSerif"),
+        url("../../public/IBMPlexSerif-Regular.ttf") format("truetype");
+    font-weight: 10;
+}
+
+@font-face {
+    font-family: "DMSerif";
+    src: local("DMSerif"),
+        url("../../public/DMSerifDisplay-Regular.ttf") format("truetype");
+    font-weight: 10;
+}

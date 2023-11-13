@@ -1,7 +1,7 @@
 .job {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .logo {
@@ -9,6 +9,7 @@
     height: 48px;
     border-radius: 25%;
     margin-right: 32px;
+    margin-left: 16px;
 }
 
 .body {
@@ -40,6 +41,7 @@
     margin-bottom: 8px;
     max-width: 300px;
     font-size: 14px;
+    margin-left: 16px;
 }
 
 .title {
